@@ -1,0 +1,35 @@
+# 🔥 Nunca subir archivos de entorno
+.env
+*.env
+
+# 🔥 Carpetas de cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔥 Carpeta de compilación / cache de dependencias
+build/
+dist/
+*.egg-info/
+
+# 🔥 Archivos de logs
+*.log
+
+# 🔥 Configuraciones locales de IDEs
+.vscode/
+.idea/
+
+# 🔥 Entornos virtuales locales
+env/
+venv/
+.venv/
+
+# 🔥 Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# 🔥 Archivos temporales
+*.tmp
+*.swp
+*.swo
